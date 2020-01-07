@@ -16,3 +16,7 @@ This uses serverless technology to get a stock quote and 30 day sparkline from Y
 - Go 1.15 or later
 - Run `dev/run` 
 - Running at [localhost:8080](http://localhost:8080/)
+
+> Note: dev/run includes the build tag `dev`, this includes the main function file which conflicts during builds in production
+
+## Special thanks
