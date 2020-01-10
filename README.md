@@ -24,3 +24,5 @@ This uses serverless technology to get a stock quote and 30 day sparkline from Y
 - [wcharczuk/go-chart](https://github.com/wcharczuk/go-chart)
 - [wtfutil/wtf - for Yahoo trend idea](https://github.com/wtfutil/wtf/blob/master/modules/stocks/yfinance/yquote.go#L109)
 - [piquette/finance-go](https://github.com/piquette/finance-go)
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=cd77e6593231&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
