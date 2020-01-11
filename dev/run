@@ -9,3 +9,6 @@ pushd $(pwd)
 
 # Change directory to stonks function
 cd $SCRIPT_DIR/../packages/default/stonks
+
+# Run main /w 'dev' tag so the `main` func is included
+go run -tags="dev" .
