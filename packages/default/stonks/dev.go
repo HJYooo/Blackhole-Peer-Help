@@ -10,3 +10,4 @@ import (
 )
 
 // This main function is for testing locally
+func main() {
