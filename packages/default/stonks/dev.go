@@ -11,3 +11,5 @@ import (
 
 // This main function is for testing locally
 func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		qp := r.URL.Query()
