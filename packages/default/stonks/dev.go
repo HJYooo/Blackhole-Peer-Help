@@ -13,3 +13,7 @@ import (
 func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		qp := r.URL.Query()
+
+		params := make(map[string]interface{}, len(qp))
+		for k, v := range qp {
+			params[k] = v
