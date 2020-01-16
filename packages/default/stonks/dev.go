@@ -17,3 +17,9 @@ func main() {
 		params := make(map[string]interface{}, len(qp))
 		for k, v := range qp {
 			params[k] = v
+		}
+		w.Header().Set("Content-Type", "text/html")
+		payload := Main(params)
+		if b, ok := payload["body"]; ok {
+			fmt.Fprint(w, b)
+		}
