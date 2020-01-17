@@ -23,3 +23,7 @@ func main() {
 		if b, ok := payload["body"]; ok {
 			fmt.Fprint(w, b)
 		}
+		if b, ok := payload["error"]; ok {
+			fmt.Fprint(w, b)
+		}
+	})
