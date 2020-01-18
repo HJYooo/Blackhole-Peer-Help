@@ -27,3 +27,7 @@ func main() {
 			fmt.Fprint(w, b)
 		}
 	})
+
+	// push up to web?
+	// fs := http.FileServer(http.Dir("static/"))
+	// http.Handle("/static/", http.StripPrefix("/static/", fs))
