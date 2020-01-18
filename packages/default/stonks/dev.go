@@ -31,3 +31,5 @@ func main() {
 	// push up to web?
 	// fs := http.FileServer(http.Dir("static/"))
 	// http.Handle("/static/", http.StripPrefix("/static/", fs))
+
+	fmt.Println("Running on port :8080")
