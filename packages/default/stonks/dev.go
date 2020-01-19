@@ -33,3 +33,5 @@ func main() {
 	// http.Handle("/static/", http.StripPrefix("/static/", fs))
 
 	fmt.Println("Running on port :8080")
+	http.ListenAndServe(":8080", nil)
+}
