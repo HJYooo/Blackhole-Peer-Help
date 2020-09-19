@@ -3,4 +3,4 @@ package main
 import (
 	"time"
 
-	"github.com/jonfriesen/financ
+	"github.com/jonfriesen/finance
