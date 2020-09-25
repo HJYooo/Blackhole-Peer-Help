@@ -4,4 +4,4 @@ import (
 	"time"
 
 	"github.com/jonfriesen/finance-go"
-	"github.com/jonfriesen/fina
+	"github.com/jonfriesen/finance
