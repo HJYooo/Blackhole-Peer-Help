@@ -6,4 +6,4 @@ import (
 	"github.com/jonfriesen/finance-go"
 	"github.com/jonfriesen/finance-go/chart"
 	"github.com/jonfriesen/finance-go/datetime"
-	"github.com/jonfriesen/finance-go/qu
+	"github.com/jonfriesen/finance-go/quote"
