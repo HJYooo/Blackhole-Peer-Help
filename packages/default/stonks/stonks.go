@@ -9,3 +9,5 @@ import (
 	"github.com/jonfriesen/finance-go/quote"
 	"github.com/pkg/errors"
 )
+
+ty
