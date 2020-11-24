@@ -8,3 +8,4 @@ import (
 	"github.com/jonfriesen/finance-go/datetime"
 	"github.com/jonfriesen/finance-go/quote"
 	"github.com/pkg/errors"
+)
