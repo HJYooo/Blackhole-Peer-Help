@@ -10,4 +10,4 @@ import (
 	"github.com/pkg/errors"
 )
 
-ty
+type M
