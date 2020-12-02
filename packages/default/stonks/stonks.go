@@ -10,4 +10,4 @@ import (
 	"github.com/pkg/errors"
 )
 
-type MarketState
+type MarketState str
