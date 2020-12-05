@@ -12,4 +12,4 @@ import (
 
 type MarketState string
 
-t
+typ
