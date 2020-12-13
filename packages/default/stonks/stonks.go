@@ -12,4 +12,4 @@ import (
 
 type MarketState string
 
-type YQ
+type YQuote
