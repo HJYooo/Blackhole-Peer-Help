@@ -13,4 +13,5 @@ import (
 type MarketState string
 
 type YQuote struct {
-	Chart           stri
+	Chart           string
+	
