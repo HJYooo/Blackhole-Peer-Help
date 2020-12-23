@@ -14,4 +14,4 @@ type MarketState string
 
 type YQuote struct {
 	Chart           string
-	Trend           stri
+	Trend           string /
