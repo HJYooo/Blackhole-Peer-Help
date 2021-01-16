@@ -17,4 +17,4 @@ type YQuote struct {
 	Trend           string // can be bigup (>3%), up, drop or bigdrop (<3%)
 	Symbol          string
 	Name            string
-	Curr
+	Currenc
