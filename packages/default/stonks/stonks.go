@@ -18,4 +18,4 @@ type YQuote struct {
 	Symbol          string
 	Name            string
 	Currency        string
-	Ma
+	Market
