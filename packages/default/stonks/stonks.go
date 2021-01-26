@@ -19,4 +19,4 @@ type YQuote struct {
 	Name            string
 	Currency        string
 	MarketState     string
-	MarketPrice 
+	MarketPrice  
