@@ -20,4 +20,4 @@ type YQuote struct {
 	Currency        string
 	MarketState     string
 	MarketPrice     float64
-	MarketChange    f
+	MarketChange    flo
