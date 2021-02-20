@@ -21,4 +21,4 @@ type YQuote struct {
 	MarketState     string
 	MarketPrice     float64
 	MarketChange    float64
-	
+	Ma
