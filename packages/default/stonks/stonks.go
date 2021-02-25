@@ -22,3 +22,6 @@ type YQuote struct {
 	MarketPrice     float64
 	MarketChange    float64
 	MarketChangePct float64
+}
+
+f
