@@ -24,4 +24,4 @@ type YQuote struct {
 	MarketChangePct float64
 }
 
-func Main(args m
+func Main(args map[s
