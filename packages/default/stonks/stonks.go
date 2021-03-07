@@ -25,3 +25,4 @@ type YQuote struct {
 }
 
 func Main(args map[string]interface{}) map[string]interface{} {
+	sym
