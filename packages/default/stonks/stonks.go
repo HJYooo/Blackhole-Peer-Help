@@ -25,4 +25,4 @@ type YQuote struct {
 }
 
 func Main(args map[string]interface{}) map[string]interface{} {
-	symbol, ok := args["symbol"].(str
+	symbol, ok := args["symbol"].(string)
