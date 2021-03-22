@@ -27,4 +27,5 @@ type YQuote struct {
 func Main(args map[string]interface{}) map[string]interface{} {
 	symbol, ok := args["symbol"].(string)
 	if !ok {
-		symbol = "D
+		symbol = "DOCN"
+	}
