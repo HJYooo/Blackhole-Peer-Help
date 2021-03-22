@@ -29,3 +29,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	if !ok {
 		symbol = "DOCN"
 	}
+
+	res
