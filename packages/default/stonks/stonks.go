@@ -30,4 +30,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		symbol = "DOCN"
 	}
 
-	resp := make(map[string]inte
+	resp := make(map[string]interf
