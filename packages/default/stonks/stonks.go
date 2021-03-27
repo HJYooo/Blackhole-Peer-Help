@@ -32,4 +32,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 
 	resp := make(map[string]interface{})
 
-	q 
+	q := ge
