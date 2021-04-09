@@ -34,4 +34,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 
 	q := getQuote(symbol)
 
-	// b, err := json.Marshal(
+	// b, err := json.Marshal(q)
+	//
