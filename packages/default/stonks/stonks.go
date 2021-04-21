@@ -36,4 +36,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 
 	// b, err := json.Marshal(q)
 	// if err != nil {
-	// 	resp["error"] = errors.Wrap(err, "marshalling qu
+	// 	resp["error"] = errors.Wrap(err, "marshalling quote
