@@ -39,3 +39,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	// 	resp["error"] = errors.Wrap(err, "marshalling quote object")
 	// 	return resp
 	// }
+
+	s
