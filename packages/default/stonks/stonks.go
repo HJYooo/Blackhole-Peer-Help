@@ -40,4 +40,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	// 	return resp
 	// }
 
-	start := time.Now().Add(time.Hour
+	start := time.Now().Add(time.Hour * 24 
