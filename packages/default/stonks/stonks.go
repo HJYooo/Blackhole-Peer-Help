@@ -43,4 +43,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	start := time.Now().Add(time.Hour * 24 * 30 * -1)
 	end := time.Now()
 
-	history := []*fina
+	history := []*finance.Ch
