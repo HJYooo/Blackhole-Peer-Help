@@ -44,4 +44,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	end := time.Now()
 
 	history := []*finance.ChartBar{}
-	iter := chart.Get(&chart
+	iter := chart.Get(&chart.Params{
+	
