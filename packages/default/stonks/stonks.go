@@ -45,4 +45,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 
 	history := []*finance.ChartBar{}
 	iter := chart.Get(&chart.Params{
-		Symbol:   symbol
+		Symbol:   symbol,
+		Int
