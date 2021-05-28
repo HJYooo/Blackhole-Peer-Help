@@ -46,4 +46,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	history := []*finance.ChartBar{}
 	iter := chart.Get(&chart.Params{
 		Symbol:   symbol,
-		Interval: datetime.One
+		Interval: datetime.OneDay,
+		
