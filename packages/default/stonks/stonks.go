@@ -47,4 +47,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	iter := chart.Get(&chart.Params{
 		Symbol:   symbol,
 		Interval: datetime.OneDay,
-		Start:    datetime.New(&s
+		Start:    datetime.New(&start
