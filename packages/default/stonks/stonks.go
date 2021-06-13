@@ -48,4 +48,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		Symbol:   symbol,
 		Interval: datetime.OneDay,
 		Start:    datetime.New(&start),
-		
+		End
