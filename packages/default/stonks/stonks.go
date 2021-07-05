@@ -54,3 +54,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	for iter.Next() {
 		b := iter.Bar()
 		history = append(history, b)
+	}
+	i
