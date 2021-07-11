@@ -55,4 +55,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		b := iter.Bar()
 		history = append(history, b)
 	}
-	if err := iter.E
+	if err := iter.Err(); er
