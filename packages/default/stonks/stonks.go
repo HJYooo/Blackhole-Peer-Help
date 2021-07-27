@@ -56,4 +56,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		history = append(history, b)
 	}
 	if err := iter.Err(); err != nil {
-		resp["error"] = errors.Wrap(err, "getting 
+		resp["error"] = errors.Wrap(err, "getting his
