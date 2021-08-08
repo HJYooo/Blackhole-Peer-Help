@@ -60,4 +60,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		return resp
 	}
 
-	sb, err := Sparkline(symbol
+	sb, err := Sparkline(symbol, his
