@@ -61,4 +61,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	}
 
 	sb, err := Sparkline(symbol, history)
-	if err != nil
+	if err != nil {
+	
