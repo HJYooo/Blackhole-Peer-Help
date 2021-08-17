@@ -62,4 +62,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 
 	sb, err := Sparkline(symbol, history)
 	if err != nil {
-		resp["error"] = errors.Wrap
+		resp["error"] = errors.Wrap(err
