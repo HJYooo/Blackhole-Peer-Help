@@ -65,3 +65,5 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		resp["error"] = errors.Wrap(err, "getting sparkline")
 		return resp
 	}
+
+	q.
