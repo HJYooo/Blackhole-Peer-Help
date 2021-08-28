@@ -66,4 +66,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 		return resp
 	}
 
-	q.Chart = sb.Str
+	q.Chart = sb.Strin
