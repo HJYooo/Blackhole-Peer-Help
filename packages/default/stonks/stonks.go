@@ -69,3 +69,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	q.Chart = sb.String()
 
 	b, err := GetHTML(q)
+	if e
