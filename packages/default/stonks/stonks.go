@@ -71,3 +71,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	b, err := GetHTML(q)
 	if err != nil {
 		resp["error"] = errors.Wrap(err, "getting html")
+		r
