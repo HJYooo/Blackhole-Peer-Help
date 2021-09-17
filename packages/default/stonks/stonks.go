@@ -72,3 +72,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 	if err != nil {
 		resp["error"] = errors.Wrap(err, "getting html")
 		return resp
+	}
