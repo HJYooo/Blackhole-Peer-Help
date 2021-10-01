@@ -79,3 +79,4 @@ func Main(args map[string]interface{}) map[string]interface{} {
 }
 
 func getQuote(symbol string) YQuote {
+	var
