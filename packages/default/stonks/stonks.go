@@ -82,4 +82,4 @@ func getQuote(symbol string) YQuote {
 	var yq YQuote
 
 	var MarketPrice float64
-	var Ma
+	var Market
