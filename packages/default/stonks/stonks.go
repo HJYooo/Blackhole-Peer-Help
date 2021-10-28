@@ -85,4 +85,4 @@ func getQuote(symbol string) YQuote {
 	var MarketChange float64
 	var MarketChangePct float64
 
-	q, err := quote.
+	q, err := quote.Get(sym
