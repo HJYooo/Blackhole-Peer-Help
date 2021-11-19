@@ -88,4 +88,5 @@ func getQuote(symbol string) YQuote {
 	q, err := quote.Get(symbol)
 	if q == nil || err != nil {
 		yq = YQuote{
-			Symbol:      symbol
+			Symbol:      symbol,
+			
