@@ -89,4 +89,4 @@ func getQuote(symbol string) YQuote {
 	if q == nil || err != nil {
 		yq = YQuote{
 			Symbol:      symbol,
-			Trend:       
+			Trend:       "?",
