@@ -90,3 +90,4 @@ func getQuote(symbol string) YQuote {
 		yq = YQuote{
 			Symbol:      symbol,
 			Trend:       "?",
+		
