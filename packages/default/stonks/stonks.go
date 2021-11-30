@@ -91,4 +91,5 @@ func getQuote(symbol string) YQuote {
 			Symbol:      symbol,
 			Trend:       "?",
 			MarketState: "?",
-		
+		}
+	} 
