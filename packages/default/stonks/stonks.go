@@ -92,4 +92,4 @@ func getQuote(symbol string) YQuote {
 			Trend:       "?",
 			MarketState: "?",
 		}
-	} 
+	} else {
