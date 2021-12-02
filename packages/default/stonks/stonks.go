@@ -93,3 +93,4 @@ func getQuote(symbol string) YQuote {
 			MarketState: "?",
 		}
 	} else {
+	
