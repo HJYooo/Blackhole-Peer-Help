@@ -93,4 +93,4 @@ func getQuote(symbol string) YQuote {
 			MarketState: "?",
 		}
 	} else {
-		if q.MarketState == "PR
+		if q.MarketState == "PRE"
