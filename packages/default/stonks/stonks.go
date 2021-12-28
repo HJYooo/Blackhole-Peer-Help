@@ -96,3 +96,4 @@ func getQuote(symbol string) YQuote {
 		if q.MarketState == "PRE" {
 			MarketPrice = q.PreMarketPrice
 			MarketChange = q.PreMarketChange
+			
