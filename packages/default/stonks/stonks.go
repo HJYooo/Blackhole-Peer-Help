@@ -98,4 +98,4 @@ func getQuote(symbol string) YQuote {
 			MarketChange = q.PreMarketChange
 			MarketChangePct = q.PreMarketChangePercent
 
-		} else if q.M
+		} else if q.Mark
