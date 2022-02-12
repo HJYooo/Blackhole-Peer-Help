@@ -101,4 +101,4 @@ func getQuote(symbol string) YQuote {
 		} else if q.MarketState == "POST" {
 			MarketPrice = q.PostMarketPrice
 			MarketChange = q.PostMarketChange
-			Mar
+			MarketCh
