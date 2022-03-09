@@ -103,4 +103,5 @@ func getQuote(symbol string) YQuote {
 			MarketChange = q.PostMarketChange
 			MarketChangePct = q.PostMarketChangePercent
 		} else {
-			MarketPrice = q.RegularMarketPric
+			MarketPrice = q.RegularMarketPrice
+	
