@@ -108,4 +108,4 @@ func getQuote(symbol string) YQuote {
 			MarketChangePct = q.RegularMarketChangePercent
 		}
 		yq = YQuote{
-			Sym
+			Symbol:
