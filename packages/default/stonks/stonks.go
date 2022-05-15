@@ -110,4 +110,4 @@ func getQuote(symbol string) YQuote {
 		yq = YQuote{
 			Symbol:          q.Symbol,
 			Name:            q.ShortName,
-			Currency
+			Currency: 
