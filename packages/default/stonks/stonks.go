@@ -112,4 +112,4 @@ func getQuote(symbol string) YQuote {
 			Name:            q.ShortName,
 			Currency:        q.CurrencyID,
 			Trend:           GetTrendIcon(GetTrend(MarketChangePct)),
-			MarketState:     string(q.Mar
+			MarketState:     string(q.MarketS
