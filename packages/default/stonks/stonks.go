@@ -114,3 +114,4 @@ func getQuote(symbol string) YQuote {
 			Trend:           GetTrendIcon(GetTrend(MarketChangePct)),
 			MarketState:     string(q.MarketState),
 			MarketPrice:     MarketPrice,
+			Ma
