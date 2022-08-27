@@ -115,4 +115,4 @@ func getQuote(symbol string) YQuote {
 			MarketState:     string(q.MarketState),
 			MarketPrice:     MarketPrice,
 			MarketChange:    MarketChange,
-			MarketChangePct: MarketCha
+			MarketChangePct: MarketChangeP
