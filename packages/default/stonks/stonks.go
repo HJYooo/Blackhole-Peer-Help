@@ -119,3 +119,4 @@ func getQuote(symbol string) YQuote {
 		}
 
 	}
+	ret
