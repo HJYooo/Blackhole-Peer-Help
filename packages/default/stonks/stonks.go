@@ -122,4 +122,5 @@ func getQuote(symbol string) YQuote {
 	return yq
 }
 
-func GetMarketIcon(state string) string 
+func GetMarketIcon(state string) string {
+	st
