@@ -124,4 +124,4 @@ func getQuote(symbol string) YQuote {
 
 func GetMarketIcon(state string) string {
 	states := map[string]string{
-		"PRE":    
+		"PRE":     "⏭
