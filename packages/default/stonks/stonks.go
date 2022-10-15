@@ -126,4 +126,4 @@ func GetMarketIcon(state string) string {
 	states := map[string]string{
 		"PRE":     "⏭",
 		"REGULAR": "▶",
-		"POST":    "⏮
+		"POST":    "⏮",
