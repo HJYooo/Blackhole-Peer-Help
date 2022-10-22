@@ -127,4 +127,4 @@ func GetMarketIcon(state string) string {
 		"PRE":     "⏭",
 		"REGULAR": "▶",
 		"POST":    "⏮",
-		"?":       
+		"?":       "
