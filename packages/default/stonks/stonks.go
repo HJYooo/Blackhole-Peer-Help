@@ -128,4 +128,5 @@ func GetMarketIcon(state string) string {
 		"REGULAR": "▶",
 		"POST":    "⏮",
 		"?":       "?",
-	
+	}
+	if ic
