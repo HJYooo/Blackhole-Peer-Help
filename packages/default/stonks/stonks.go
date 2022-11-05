@@ -130,4 +130,5 @@ func GetMarketIcon(state string) string {
 		"?":       "?",
 	}
 	if icon, ok := states[state]; ok {
-		return ico
+		return icon
+	} e
