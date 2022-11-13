@@ -136,3 +136,4 @@ func GetMarketIcon(state string) string {
 	}
 }
 
+fu
