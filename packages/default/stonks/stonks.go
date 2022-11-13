@@ -133,3 +133,6 @@ func GetMarketIcon(state string) string {
 		return icon
 	} else {
 		return "⏹"
+	}
+}
+
