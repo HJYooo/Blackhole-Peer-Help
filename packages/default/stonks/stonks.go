@@ -136,4 +136,4 @@ func GetMarketIcon(state string) string {
 	}
 }
 
-func GetTre
+func GetTrendI
