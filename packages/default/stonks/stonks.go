@@ -137,4 +137,4 @@ func GetMarketIcon(state string) string {
 }
 
 func GetTrendIcon(trend string) string {
-	icons := map[strin
+	icons := map[string]s
