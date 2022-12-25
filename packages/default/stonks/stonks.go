@@ -140,4 +140,4 @@ func GetTrendIcon(trend string) string {
 	icons := map[string]string{
 		"bigup":   "⬆️ ",
 		"up":      "↗️ ",
-		"d
+		"drop":
