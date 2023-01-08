@@ -143,4 +143,4 @@ func GetTrendIcon(trend string) string {
 		"drop":    "↘️ ",
 		"bigdrop": "⬇️ ",
 	}
-	r
+	return
