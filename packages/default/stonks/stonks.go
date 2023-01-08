@@ -141,4 +141,6 @@ func GetTrendIcon(trend string) string {
 		"bigup":   "⬆️ ",
 		"up":      "↗️ ",
 		"drop":    "↘️ ",
-		"bigdrop": "⬇️ 
+		"bigdrop": "⬇️ ",
+	}
+	r
