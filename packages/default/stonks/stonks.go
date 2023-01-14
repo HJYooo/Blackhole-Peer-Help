@@ -146,4 +146,4 @@ func GetTrendIcon(trend string) string {
 	return icons[trend]
 }
 
-fun
+func
