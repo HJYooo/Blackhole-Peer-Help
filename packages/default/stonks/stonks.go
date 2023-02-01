@@ -146,4 +146,4 @@ func GetTrendIcon(trend string) string {
 	return icons[trend]
 }
 
-func GetTrend(pct 
+func GetTrend(pct floa
