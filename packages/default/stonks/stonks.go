@@ -149,4 +149,4 @@ func GetTrendIcon(trend string) string {
 func GetTrend(pct float64) string {
 	var trend string
 	if pct > 3 {
-		tr
+		trend 
