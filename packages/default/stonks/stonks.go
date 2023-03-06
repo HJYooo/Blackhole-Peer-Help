@@ -154,3 +154,4 @@ func GetTrend(pct float64) string {
 		trend = "up"
 	} else if pct > -3 {
 		trend = "drop"
+	} else
