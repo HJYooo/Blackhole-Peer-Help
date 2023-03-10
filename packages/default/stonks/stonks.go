@@ -157,3 +157,4 @@ func GetTrend(pct float64) string {
 	} else {
 		trend = "bigdrop"
 	}
+	retu
