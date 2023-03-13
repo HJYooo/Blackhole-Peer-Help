@@ -157,4 +157,4 @@ func GetTrend(pct float64) string {
 	} else {
 		trend = "bigdrop"
 	}
-	return tr
+	return tren
