@@ -21,3 +21,5 @@ func init() {
 
 		out := make([]byte, len(in)+numOfCommas)
 		if n < 0 {
+			in, out[0] = in[1:], '-'
+		}
