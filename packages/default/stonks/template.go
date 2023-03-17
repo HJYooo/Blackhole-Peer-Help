@@ -18,3 +18,6 @@ func init() {
 			numOfDigits-- // First character is the - sign (not a digit)
 		}
 		numOfCommas := (numOfDigits - 1) / 3
+
+		out := make([]byte, len(in)+numOfCommas)
+		if n < 0 {
