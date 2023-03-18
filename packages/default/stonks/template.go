@@ -27,3 +27,9 @@ func init() {
 		for i, j, k := len(in)-1, len(out)-1, 0; ; i, j = i-1, j-1 {
 			out[j] = in[i]
 			if i == 0 {
+				return string(out)
+			}
+			if k++; k == 3 {
+				j, k = j-1, 0
+				out[j] = ','
+			}
