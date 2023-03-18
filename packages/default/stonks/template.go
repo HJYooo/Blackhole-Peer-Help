@@ -35,3 +35,7 @@ func init() {
 			}
 		}
 	}
+	fmap["safeHTML"] = func(s string) template.HTML { return template.HTML(s) }
+}
+
+const quoteTmpl = `
