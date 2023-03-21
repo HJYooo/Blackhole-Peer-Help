@@ -39,3 +39,6 @@ func init() {
 }
 
 const quoteTmpl = `
+<!DOCTYPE html>
+<html>
+<head>
