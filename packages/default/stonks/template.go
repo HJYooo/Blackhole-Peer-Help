@@ -42,3 +42,8 @@ const quoteTmpl = `
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1><b>{{.Symbol}}</b> {{.Name}}</h1>
+{{safeHTML .Chart}}
