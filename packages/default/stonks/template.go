@@ -47,3 +47,7 @@ const quoteTmpl = `
 <body>
 <h1><b>{{.Symbol}}</b> {{.Name}}</h1>
 {{safeHTML .Chart}}
+<ul>
+    <li>${{printf "%.2f" .MarketPrice}}<small>{{.Currency}}</small> {{.Trend}}</li>
+	<li>Change ${{printf "%.2f" .MarketChange}} ({{printf "%.2f" .MarketChangePct}}%)</li>
+</ul>
