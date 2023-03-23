@@ -57,3 +57,8 @@ const quoteTmpl = `
 func GetHTML(quote YQuote) (string, error) {
 	t, err := template.New("symbol").Funcs(fmap).Parse(quoteTmpl)
 	if err != nil {
+		return "", err
+	}
+
+	var f bytes.Buffer
+	err = t.Execute(&f, quote)
