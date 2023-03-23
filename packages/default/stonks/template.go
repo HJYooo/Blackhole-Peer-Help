@@ -51,3 +51,9 @@ const quoteTmpl = `
     <li>${{printf "%.2f" .MarketPrice}}<small>{{.Currency}}</small> {{.Trend}}</li>
 	<li>Change ${{printf "%.2f" .MarketChange}} ({{printf "%.2f" .MarketChangePct}}%)</li>
 </ul>
+</body>
+</html>`
+
+func GetHTML(quote YQuote) (string, error) {
+	t, err := template.New("symbol").Funcs(fmap).Parse(quoteTmpl)
+	if err != nil {
