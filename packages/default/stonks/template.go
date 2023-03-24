@@ -67,3 +67,4 @@ func GetHTML(quote YQuote) (string, error) {
 	}
 
 	return f.String(), nil
+}
