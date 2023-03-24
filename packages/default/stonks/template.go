@@ -63,3 +63,7 @@ func GetHTML(quote YQuote) (string, error) {
 	var f bytes.Buffer
 	err = t.Execute(&f, quote)
 	if err != nil {
+		return "", err
+	}
+
+	return f.String(), nil
