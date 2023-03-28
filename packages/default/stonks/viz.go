@@ -10,3 +10,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/wcharczuk/go-chart"
 	"github.com/wcharczuk/go-chart/drawing"
+)
+
+func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, error) {
+	var dates []time.Time
+	var yv []float64
