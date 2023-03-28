@@ -17,3 +17,6 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 	var yv []float64
 	for _, ts := range charBars {
 		parsed := time.Unix(int64(ts.Timestamp), 0)
+		dates = append(dates, parsed)
+
+		close, _ := ts.Close.Float64()
