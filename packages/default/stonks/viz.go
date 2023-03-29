@@ -34,3 +34,7 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 			Show:      true,
 			FontColor: drawing.ColorFromHex("374151").WithAlpha(80),
 		},
+		Width:  300,
+		Height: 45,
+		XAxis: chart.XAxis{
+			ValueFormatter: chart.TimeHourValueFormatter,
