@@ -20,3 +20,7 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 		dates = append(dates, parsed)
 
 		close, _ := ts.Close.Float64()
+		yv = append(yv, close)
+	}
+
+	priceSeries := chart.TimeSeries{
