@@ -27,3 +27,10 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 		XValues: dates,
 		YValues: yv,
 	}
+
+	graph := chart.Chart{
+		Title: fmt.Sprintf("%s - 30d", symbol),
+		TitleStyle: chart.Style{
+			Show:      true,
+			FontColor: drawing.ColorFromHex("374151").WithAlpha(80),
+		},
