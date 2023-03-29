@@ -24,3 +24,6 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 	}
 
 	priceSeries := chart.TimeSeries{
+		XValues: dates,
+		YValues: yv,
+	}
