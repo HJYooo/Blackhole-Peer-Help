@@ -38,3 +38,8 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 		Height: 45,
 		XAxis: chart.XAxis{
 			ValueFormatter: chart.TimeHourValueFormatter,
+		},
+		Series: []chart.Series{
+			priceSeries,
+		},
+	}
