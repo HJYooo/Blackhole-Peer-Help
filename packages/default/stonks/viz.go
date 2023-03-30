@@ -43,3 +43,8 @@ func Sparkline(symbol string, charBars []*finance.ChartBar) (*bytes.Buffer, erro
 			priceSeries,
 		},
 	}
+
+	buffer := bytes.NewBuffer([]byte{})
+	err := graph.Render(chart.SVG, buffer)
+	if err != nil {
+		return nil, errors.Wrap(err, "rendering chart image")
